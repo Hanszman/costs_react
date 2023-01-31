@@ -10,6 +10,39 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Meu Projeto",
+      "budget": "15000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Projetão",
+      "budget": "6000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Novo Projeto",
+      "budget": "9000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
