@@ -20,7 +20,7 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
             setCategories(data);
         })
         .catch((err) => console.log(err));
-    }, []); // O segundo parâmetro é o valor inicial, nesse caso, as options vazias []
+    }, []); // O segundo parâmetro é o valor inicial, nesse caso vazio []
 
     const submit = (e) => {
         e.preventDefault();
