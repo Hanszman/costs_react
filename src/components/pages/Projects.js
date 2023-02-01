@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from './Projects.module.css';
-import LinkButton from '../layout/LinkButton';
-import Message from '../layout/Message';
-import Container from '../layout/Container';
 import Loading from '../layout/Loading';
+import Container from '../layout/Container';
+import Message from '../layout/Message';
+import LinkButton from '../layout/LinkButton';
 import ProjectCard from '../project/ProjectCard';
 
 function Projects() {
@@ -34,7 +34,7 @@ function Projects() {
                 setRemoveLoading(true);
             })
             .catch((err) => console.log(err));
-        }, 300)
+        }, 300);
     }, []); // O segundo parâmetro é o valor inicial, nesse caso vazio []
 
     function removeProject(id) {
